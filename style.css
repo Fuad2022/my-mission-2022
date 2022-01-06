@@ -3,27 +3,28 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
 body{
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 .banner{
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .half-width{
-    width: 45%;
+    width:45%;
     margin-left: 5%;
+
 }
 .link-button{
-    margin-top: 100px;
     padding: 10px 40px;
     border-radius: 5px;
     text-decoration: none;
     background-color: #FF5959;
     color: whitesmoke;
-
 }
 .half-width img{
     width: 75%;
@@ -51,10 +52,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .mission-content{
-    width: 27%;
-    height: 300px;
+    width: 30%;
+    height: 330px;
     margin: 0px 10px;
 }
 .my-mission{
@@ -76,8 +79,63 @@ height: 126px;
     font-size: 15px;
 
 }
+.vission{
+    background-color: #FF59593b;
+}
+.goal{
+    background-color: #FFF4D6;
+}
+.dev-area{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.development{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dev-image {
+    width: 400px;
+}
+.dev-image img{
+    width: 100%;
+}
+.devlop-content{
+    width: 700px;
+}
+.devlop-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 10px;
+}
 
+.develop p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #3E3E3E;
+    padding-right: 5%;
+    margin-bottom: 25px;
+}
+.community{
+        background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 250px;
+}
 
+.application h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.go-corona{
+    height: 700px;
+}
 footer{
     text-align: center;
     background: #0B0D17;
