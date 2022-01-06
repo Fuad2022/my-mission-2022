@@ -1,2 +1,27 @@
-/* font-family: 'Poppins', sans-serif;
+/* font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
+body{
+    margin: 0;
+}
+footer{
+    text-align: center;
+    background: #0B0D17;
+    padding: 50px 0px;
+
+}
+footer div h3{
+    font-size: 28px;
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+footer div h3 span{
+    color: #FF5959;
+}
+footer div p{
+    font-size: 14px;
+    color: whitesmoke;
+    font-family: 'Manrope', sans-serif;
+}
