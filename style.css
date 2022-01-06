@@ -4,12 +4,50 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width{
+    width: 45%;
+    margin-left: 5%;
+}
+.link-button{
+    margin-top: 100px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #FF5959;
+    color: whitesmoke;
+
+}
+.half-width img{
+    width: 70%;
+}
+.stay-focus{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    border-left: 3px solid #FF5959;
+    padding-left: 2%;
+}
+.orange{
+    color: #FFAD5A;
+}
+
+
+
+
+
+
 footer{
     text-align: center;
     background: #0B0D17;
     padding: 50px 0px;
-
 }
 footer div h3{
     font-size: 28px;
