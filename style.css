@@ -26,7 +26,7 @@ body{
 
 }
 .half-width img{
-    width: 70%;
+    width: 75%;
 }
 .stay-focus{
     font-size: 60px;
@@ -38,10 +38,44 @@ body{
 .orange{
     color: #FFAD5A;
 }
+.mission{
+    width: 1240px;
+    height: 500px;
+    margin: 0 auto;
+}
+.mission h2{
+    font-size: 45px;
+    text-align: center;
+}
+.mission-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission-content{
+    width: 27%;
+    height: 300px;
+    margin: 0px 10px;
+}
+.my-mission{
+    background: #4f9da63b;
+    border-radius: 10px;
+    padding: 25px 15px;
 
+}
+.mission-content img{
+width: 126px;
+height: 126px;
+}
+.mission-content h4{
+    font-size: 20px;
+    line-height: 0px;
+}
+.mission-content p{
+    color: #424242;
+    font-size: 15px;
 
-
-
+}
 
 
 footer{
